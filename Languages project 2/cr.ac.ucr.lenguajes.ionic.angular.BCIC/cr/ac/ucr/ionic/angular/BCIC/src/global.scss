@@ -1,0 +1,119 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+ @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+  }
+  .basic-container {
+    padding: 30px;
+  }
+  .version-info {
+    font-size: 8pt;
+    float: right;
+    margin: 8px;
+  }
+
+  .example-container {
+    width: 400px;
+    height: 200px;
+    margin: 12px;
+    border: 1px solid #555;
+  }
+  
+  mat-drawer-content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+.login-input{
+    width: 60%;
+}
+
+
+  .body {
+   
+    background: url(/assets/img/backgraund.jpg) no-repeat center/cover fixed;
+  }
+
+  ion-content {
+    --background: none;
+  }
+
+.mat-dialog-container{
+    background-color: white;
+    color: black;
+    text-align: center;
+  
+}
+
+.mat-form-field-empty.mat-form-field-label {
+    color: black;
+}
+/* Change label color on focused */
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+    color: #50d0fb !important;
+  }
+  
+  /* underline border color on focused */
+  ::ng-deep .mat-focused .mat-form-field-underline .mat-form-field-ripple{
+    background-color: #50d0fb !important;
+  }
+
+  .carousel-item {
+    &.active, &.carousel-item-right, &.carousel-item-next {
+      display: flex !important;
+      flex-wrap: wrap
+    }
+  }
+
+//separate seccions
+  .separator{
+  
+    margin-top: 4%;
+    background-color: black;
+    color: white; 
+    text-align: center;
+    height: 7%;
+    margin-top: 55px;//
+  }
+
+  .separator2{
+  
+    margin-top: 4%;
+    background-color: black;
+    color: white; 
+    text-align: center;
+    height: 7%;
+    margin-top: 20px;//
+  }
+.test{
+    height: 2px;
+}
+  
