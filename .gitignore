@@ -47,15 +47,26 @@ $RECYCLE.BIN/
 log.txt
 npm-debug.log*
 
-/.idea
-/.ionic
-/.sass-cache
-/.sourcemaps
-/.versions
-/.vscode
-/coverage
-/dist
-/node_modules
-/platforms
-/plugins
-/www
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/.idea
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/.ionic
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/.sass-cache
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/.sourcemaps
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/.versions
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/.vscode
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/coverage
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/dist
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/node_modules
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/platforms
+
+Languages project 2/cr.ac.ucr.lenguajes.ionic.angular.BCIC/cr/ac/ucr/ionic/angular/BCIC/plugins
+
