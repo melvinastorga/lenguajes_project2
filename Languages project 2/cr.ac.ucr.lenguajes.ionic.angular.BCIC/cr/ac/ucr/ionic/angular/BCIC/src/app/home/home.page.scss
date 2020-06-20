@@ -27,36 +27,8 @@
 }
 
 
-.carousel-item {
-  &.active, &.carousel-item-right, &.carousel-item-next {
-    display: flex !important;
-    flex-wrap: wrap
-  }
-}
-
-.view {
-  height: 100vh;
-}
-
-/* Full Page Carousel itself*/
-.carousel {
-  height: 100vh;
-}
-
-.carousel .carousel-inner {
-  height: 100vh;
-}
-
-.carousel .carousel-inner .carousel-item,
-.carousel .carousel-inner .active {
-  height: 100vh;
-}
-
-.video-fluid {
-    max-width: unset;
-}
-
 .carousel-multi-item {
 
   margin-top: 10%;
 }
+

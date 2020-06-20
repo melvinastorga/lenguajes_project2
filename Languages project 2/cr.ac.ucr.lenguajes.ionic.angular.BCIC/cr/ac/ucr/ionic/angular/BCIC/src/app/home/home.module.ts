@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
+import { AnimatedCardsModule } from 'ng-uikit-pro-standard';
 import { CarouselModule,CardsModule, WavesModule,ButtonsModule ,IconsModule,MDBBootstrapModule
 ,ModalModule,ChartsModule,BadgeModule,MDBRootModule,CollapseModule,DropdownModule,NavbarModule
 ,InputsModule,PopoverModule,TooltipModule,CheckboxModule,InputUtilitiesModule,TableModule,StickyHeaderModule,BreadcrumbModule
@@ -22,7 +23,7 @@ import { MaterialModule } from '../material.module';
     ReactiveFormsModule,
     CarouselModule,
     WavesModule,
-    CardsModule,ButtonsModule,
+   CardsModule, AnimatedCardsModule,ButtonsModule,
     IconsModule,
     MDBBootstrapModule,
     ModalModule,ChartsModule,BadgeModule,MDBRootModule,

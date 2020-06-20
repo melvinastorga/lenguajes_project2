@@ -8,9 +8,18 @@
  * For more information on global stylesheets, visit the documentation:
  * https://ionicframework.com/docs/layout/global-stylesheets
  */
- @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
 /* Core CSS required for Ionic components to work properly */
 @import "~@ionic/angular/css/core.css";
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+@import "node_modules/angular-bootstrap-md/assets/scss/mdb.scss";
+@import "~ng-uikit-pro-standard/assets/scss/core/colors";
+@import "~ng-uikit-pro-standard/assets/scss/core/variables";
+
 
 /* Basic CSS for apps built with Ionic */
 @import "~@ionic/angular/css/normalize.css";
@@ -24,6 +33,40 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+//Navbar
+ion-toolbar{
+  --ion-background-color: #249DD8;
+  --color:white;
+
+//button menu inside navbar
+  ion-row{
+    ion-button{
+      
+        --background: #249DD8;
+        --color: #ffffff;
+        --ion-background-color: #249DD8;
+      }
+    }
+  }
+  
+
+//side menu header
+ion-menu{
+  ion-toolbar{
+      --ion-background-color:#204C6F;
+      --color:white;
+  }
+
+}
+
+//mat-butons colors
+.mat-button, .mat-raised-button{
+  background-color:#249DD8;
+  color: white;
+} 
+
 
 body {
     font-family: Roboto, Arial, sans-serif;
@@ -60,6 +103,9 @@ body {
   .body {
    
     background: url(/assets/img/backgraund.jpg) no-repeat center/cover fixed;
+    margin-top: 20px;
+    height: 85%;
+    width: 100%;
   }
 
   ion-content {
@@ -93,27 +139,63 @@ body {
     }
   }
 
-//separate seccions
+//separate sections
   .separator{
   
-    margin-top: 4%;
-    background-color: black;
+    background-color:  #204C6F;
     color: white; 
     text-align: center;
-    height: 7%;
-    margin-top: 55px;//
+    height: 8%;
+
   }
 
   .separator2{
   
-    margin-top: 4%;
-    background-color: black;
+    margin-top: 2%;
+    background-color:  #204C6F;
     color: white; 
     text-align: center;
-    height: 7%;
-    margin-top: 20px;//
+    height: 8%;
+
   }
 .test{
     height: 2px;
 }
   
+.carousel-control-next{
+  color: black;
+
+  width: 25px;
+ 
+}
+
+.carousel-control-prev{
+  
+color: black;
+
+width: 25px;
+
+}
+
+.carousel-indicators li{
+  
+
+  background-color: #204c6f;
+
+  
+  }
+
+
+.carousel-control-next-icon {
+  fill: black;
+  background-color: black;
+  color: black;
+  border-color: black;
+
+}
+.carousel-control-prev-icon {
+  fill: black;
+  background-color: black;
+  color: black;
+  border-color: black;
+}

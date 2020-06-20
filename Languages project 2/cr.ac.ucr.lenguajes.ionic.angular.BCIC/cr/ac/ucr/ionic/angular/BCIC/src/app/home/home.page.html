@@ -1,29 +1,49 @@
  
-<ion-content id="bodyHome" class="body">
+<ion-content id="bodyHome">
+
+  <div class="body">
+
+   
+  </div>
 
   <div class="separator" >
     <h1>Noticias</h1>
  </div>
+
+
  <ion-items style="background-color: white;width: 90%; height: 70%; align-content: center;text-align: center; margin-left: 5%; margin-right: 5%;">
 
-<mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" >
+<mdb-carousel [interval]="'0'" [isControls]="true" class="carousel-multi-item multi-animation" >
 <mdb-carousel-item *ngFor="let item of slides; let i = index">
 <div class="col-md-4 pb-2" *ngFor="let card of item; let cardIndex = index">
-<mdb-card class="my-1 h-100">
-  <ion-item>
-    <ion-img style="height:300px;width: 300px; margin-left: 10%; margin-right: 10%;" class="test" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap"></ion-img>
-  </ion-item>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Titulo: Chiba Inu</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+    <ion-item> <mat-card-subtitle>Descripcion: The Shiba Inu japon dog</mat-card-subtitle></ion-item>
+  
 
-<mdb-card-body>
-<mdb-card-title>
-<h4>{{card.title}}</h4>
-</mdb-card-title>
-<p>{{card.description}}</p>
-</mdb-card-body>
-<mdb-card-footer style="height: 120px; background-color: black;">
-  <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonText}}</a>
-  </mdb-card-footer>
-</mdb-card>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Mas
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+      
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      
+      </mat-expansion-panel>
+    </mat-card-content>
+    <mat-card-actions  style="height: 80px;">
+      <button size="sm"  mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect>Comentar</button>
+    </mat-card-actions>
+  </mat-card>
+  
 </div>
 </mdb-carousel-item>
 </mdb-carousel>
@@ -36,7 +56,7 @@
 </div>
 <ion-items style="height: max-content;background-color: white;width: 70%; height: 60%; align-content: center;text-align: center; margin-left: 15%; margin-right: 15%;">
 
-  <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" >
+  <mdb-carousel [interval]="'0'"  [isControls]="true" class="carousel-multi-item multi-animation" >
     <mdb-carousel-item *ngFor="let item of slides; let i = index">
     <div class="col-md-4 pb-2" *ngFor="let card of item; let cardIndex = index">
     <mdb-card class="my-1 h-100">
@@ -50,7 +70,7 @@
     </mdb-card-title>
     <p>{{card.description}}</p>
     </mdb-card-body>
-    <mdb-card-footer style="height: 120px; background-color: black;">
+    <mdb-card-footer style="height: 120px">
       <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonText}}</a>
       </mdb-card-footer>
     </mdb-card>
@@ -66,24 +86,80 @@
 </div>
 
 <ion-items style="background-color: white;width: 70%; height: 60%; align-content: center;text-align: center; margin-left: 15%; margin-right: 15%;">
-  <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" >
+  <mdb-carousel [interval]="'0'"  [isControls]="true" class="carousel-multi-item multi-animation" >
     <mdb-carousel-item *ngFor="let item of slides; let i = index">
     <div class="col-md-4 pb-2" *ngFor="let card of item; let cardIndex = index">
-   
     <mdb-card class="my-1 h-100">
-      <ion-item>
-        <ion-img style="height:300px;width: 300px; margin-left: 10%; margin-right: 10%;" class="test" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap"></ion-img>
-      </ion-item>
+     
+        <ion-img style=" border-radius: 50%; height:250px;width: 250px; margin-left: 25%; margin-right: 50%;" class="test" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg" alt="Card image cap"></ion-img>
+        <mdb-card-title>
+          <h4>Alexis jesus madrigal cordero</h4>
+          </mdb-card-title>
    
     <mdb-card-body>
-    <mdb-card-title>
-    <h4>{{card.title}}</h4>
-    </mdb-card-title>
-    <p>{{card.description}}</p>
+
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Informacion
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+      
+        <p>
+          The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+          A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+          bred for hunting.
+        </p>
+      
+      </mat-expansion-panel>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            Cursos
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+      
+         <ion-items>
+
+   <br>
+            <div class="row">
+              <div  class="col-md">
+               Redes
+              </div>
+
+              <div class="col-sm">
+  
+                <ion-button color="secondary"> Horario</ion-button>
+              </div>
+            </div>
+     
+         </ion-items>
+
+         <ion-items>
+
+     
+            <div class="row">
+              <div class="col-md">
+               Programacion I
+              
+              </div>
+              <div class="col-sm">
+  
+               <ion-button color="secondary"> Horario</ion-button>
+              </div>
+            </div>
+        
+         </ion-items>
+
+      
+      </mat-expansion-panel>
+
     </mdb-card-body>
-    <mdb-card-footer style="height: 120px; background-color: black;">
-    <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonText}}</a>
-    </mdb-card-footer>
+    <mdb-card-footer style="height: 120px">
+      <button size="sm"  mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect>Facebook</button>
+      <button size="sm"  mdbBtn type="button" gradient="blue" rounded="true" mdbWavesEffect>Instagram</button>
+      </mdb-card-footer>
     </mdb-card>
     </div>
     </mdb-carousel-item>
@@ -93,7 +169,7 @@
 </ion-items>
 
     
-<footer style="background-color: black;color: white; margin-top: 10%;" class="page-footer font-small blue pt-4">
+<footer style="background-color: #204c6f;;color: white; margin-top: 10%;" class="page-footer font-small blue pt-4">
 
   <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">

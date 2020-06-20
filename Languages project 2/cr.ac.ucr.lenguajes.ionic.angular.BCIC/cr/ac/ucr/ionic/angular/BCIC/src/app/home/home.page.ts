@@ -42,7 +42,7 @@ export class HomePage implements OnInit {
     },
     {
       title: 'Card Title 5',
-      description: 'Some quick example text to build on the card title and make up the bulk of the card content',
+      description: 'Some quick example text to build on the card title and make up the bulk of the card content ',
       buttonText: 'Comentarios',
       img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
     },
@@ -97,4 +97,7 @@ export class HomePage implements OnInit {
       this.carouselDisplayMode = 'multiple';
     }
   }
+
+
+
 }

@@ -4,7 +4,7 @@
   <ion-toolbar>
 
     <ion-row>
-      <ion-button color="dark" (click)="openCustom()">
+      <ion-button  (click)="openCustom()">
         <ion-icon slot="icon-only" name="menu-outline" ></ion-icon>
       </ion-button>
   
@@ -29,9 +29,9 @@
 <!--toogle-menu-content-->
     <ion-content>
 
-      <ion-menu side="start" menuId="custom" color="dark" contentId="main">
+      <ion-menu side="start" menuId="custom"  contentId="main">
         <ion-header>
-          <ion-toolbar  color="dark">
+          <ion-toolbar class="menu-toolbar">
             <ion-title>Menu</ion-title>
           </ion-toolbar>
         </ion-header>
